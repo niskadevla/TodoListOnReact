@@ -1,0 +1,19 @@
+@import '../variable';
+
+.form-add-todo {
+  margin-bottom: 1rem;
+
+  input[type="text"] {
+    padding: .5rem 1rem;
+    border: 2px solid $secondColor;
+    border-radius: 3px;
+    outline: none;
+
+    &:focus {
+      border: 2px solid transparent;
+      box-shadow: 0 0 10px 4px $secondColor;
+    }
+  }
+
+
+}
